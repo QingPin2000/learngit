@@ -1,0 +1,11 @@
+mixin: # object
+  dns:
+    enable: true
+    enhanced-mode: redir-host
+    listen: 0.0.0.0:53
+    nameserver:
+      - 117.50.10.10
+      - 52.80.52.52
+    fallback:
+      - 1.1.1.1
+      - 1.0.0.1
